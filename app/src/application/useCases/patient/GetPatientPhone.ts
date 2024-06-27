@@ -10,9 +10,9 @@ export default class GetPatientPhoneUseCase {
       INCLUDE_APPOINTMENT
     );
 
-    if (!patient) {
-      throw new Error("No patient found");
-    }
+    // if (!patient) {
+    //   throw new Error("No patient found");
+    // }
     return patient;
   }
 }
